@@ -1,7 +1,4 @@
-### NodeStream
-
-See complete tutorial [here](https://quantizd.com/building-live-streaming-app-with-node-js-and-react/).
-
+### Sample Stream
 
 #### Install ffmpeg for RTMP to HLS transcoding 
 
@@ -18,15 +15,9 @@ $ ffmpeg --version
 ```
 
 #### Prerequisites
- 
- Make sure you have MongoDB installed on your system. We use Mongoose for accessing database.
- Check MongoDB docs on how to install MongoDB on your operating system.
- 
- [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/) 
- 
- [Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
- 
- [Mac](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+ - ffmpeg
+ - mongodb
+
 
 #### Configuration
 Change ffmpeg path in node media server configuration to your
@@ -81,8 +72,7 @@ $ npm run watch
 # run node server with supervisor and watch for changes
 $ npm run start
 ```
-#### Streaming with OBS
-
+#### Streaming with OBS 
 Go to Settings > Stream.  Select Custom service and `rtmp://127.0.0.1:1935/live`
-in server input. Enter your streaming key issued by NodeStream and click Apply.
+in server input. Enter your streaming key issued by `Sample Stream` and click Apply.
 Click start streaming to broadcast your stream.
