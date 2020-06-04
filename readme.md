@@ -1,22 +1,8 @@
 ### Sample Stream
 
-#### Install ffmpeg for RTMP to HLS transcoding 
-
-```
-# On Ubuntu 18.04
-
-$ sudo add-apt-repository ppa:jonathonf/ffmpeg-4
-$ sudo apt install ffmpeg
-
-# check version
-$ ffmpeg --version
-
-# You can download Windows builds from ffmpeg site.
-```
-
 #### Prerequisites
- - ffmpeg
- - mongodb
+ - ffmpeg for RTMP to HLS transcoding 
+ - mongodb for database
 
 
 #### Configuration
